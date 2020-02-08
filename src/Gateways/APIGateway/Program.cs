@@ -20,19 +20,8 @@ namespace APIGateway
             Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder => 
                 {
-                    webBuilder.ConfigureAppConfiguration(builder =>
-                    {
-                        const string extension = "yml";
-                        var ntradaConfig = Environment.GetEnvironmentVariable("NTRADA_CONFIG");
-                        var configPath = args?.FirstOrDefault() ?? ntradaConfig ?? $"ntrada.{extension}";
-
-                        if (!configPath.EndsWith($".{extension}"))
-                        {
-                            configPath += $".{extension}";
-                        }
-
-                        builder.AddYmlFile(configPath, false);
-                    })
-                })
+                    // move it to ocelot
+                   
+                });
     }
 }
