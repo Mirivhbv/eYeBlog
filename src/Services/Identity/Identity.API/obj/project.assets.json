@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Miri\\wage\\src\\Services\\Identity\\Idetity.API\\Idetity.API.csproj",
-      "projectName": "Idetity.API",
-      "projectPath": "C:\\Users\\Miri\\wage\\src\\Services\\Identity\\Idetity.API\\Idetity.API.csproj",
+      "projectUniqueName": "C:\\Users\\Miri\\wage\\src\\Services\\Identity\\Identity.API\\Identity.API.csproj",
+      "projectName": "Identity.API",
+      "projectPath": "C:\\Users\\Miri\\wage\\src\\Services\\Identity\\Identity.API\\Identity.API.csproj",
       "packagesPath": "C:\\Users\\Miri\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Miri\\wage\\src\\Services\\Identity\\Idetity.API\\obj\\",
+      "outputPath": "C:\\Users\\Miri\\wage\\src\\Services\\Identity\\Identity.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
