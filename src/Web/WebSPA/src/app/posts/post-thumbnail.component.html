@@ -1,0 +1,13 @@
+<div class="well hoverwell thumbnail">
+    <h2>{{ post?.title }}</h2>
+    <div>Date: {{ post?.publishDate }}</div>
+
+
+    <div [hidden]="!post?.imageUrl">
+        <img src="{{ post.imageUrl }}">
+    </div>
+
+    <div>
+        {{ post?.shortDescription }}
+    </div>
+</div>

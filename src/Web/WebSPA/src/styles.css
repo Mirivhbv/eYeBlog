@@ -1,1 +1,50 @@
 /* You can add global styles to this file, and also import other style files */
+
+body {
+    background-color: darkcyan;
+}
+
+.hoverwell:hover {
+    background-color: #067dfb;
+    cursor: pointer;
+}
+
+.container {
+    padding-top: 10px;
+}
+
+.well {
+    background-color: lightseagreen;
+}
+
+hr {
+    border-top-color: lightyellow;
+}
+
+.pointable {
+    cursor: pointer;
+}
+
+button {
+    color: rgb(80, 40, 40);
+}
+
+[hidden] {
+    display: none !important;
+}
+
+.toast-success {
+    background-color: #51a351;
+}
+
+.toast-error {
+    background-color: #bd362f;
+}
+
+.toast-info {
+    background-color: #2f96b4;
+}
+
+.toast-warning {
+    background-color: #f89406;
+}
